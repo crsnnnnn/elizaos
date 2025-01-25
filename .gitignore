@@ -1,44 +1,9 @@
-# Dependencies
-node_modules/
-.pnpm-store/
+node_modules
+/out
 
-# Build outputs
-dist/
-build/
-*.tsbuildinfo
-
-# Environment variables
 .env
-.env.local
-.env.*
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Docker
-*.tar
-*.tar.gz
-
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Cache
-.cache/
-.npm/
-.pnpm/
-
 .env.production
+.env.local
 .env_main
 concatenated-output.ts
 embedding-cache.json
@@ -47,6 +12,7 @@ packages/plugin-buttplug/intiface-engine
 .idea
 .DS_Store
 
+dist/
 # Allow models directory but ignore model files
 models/*.gguf
 pgLite/
@@ -74,10 +40,7 @@ timeline_cache.json
 
 *.sqlite
 
-# Characters directory but allow specific files
-characters/*
-!characters/*.character.json
-!characters/*.json
+
 
 packages/core/src/providers/cache
 packages/core/src/providers/cache/*
@@ -88,6 +51,7 @@ tsup.config.bundled_*.mjs
 
 .turbo
 .cursorrules
+.pnpm-store
 
 coverage
 .eslintcache
