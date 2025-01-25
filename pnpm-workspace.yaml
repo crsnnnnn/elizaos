@@ -1,0 +1,7 @@
+packages:
+    - "docs"
+    - "packages/*"
+    - "client"
+    - "agent"
+    - "packages/plugin-coinmarketcap"
+    - "packages/plugin-dexscreener"
